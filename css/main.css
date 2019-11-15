@@ -1,0 +1,117 @@
+  .section1 {
+      padding-top: 50px;
+      height: 500px;
+      color: #fff;
+      background-color: #333;
+  }
+
+  .section2 {
+      padding-top: 50px;
+      height: 619px;
+      color: rgb(0, 0, 0);
+      background-color: #ffffff;
+  }
+
+  .section3 {
+      padding-top: 50px;
+      height: 360px;
+      color: #fff;
+      background-color: #333;
+  }
+
+  .section4 {
+      padding-top: 50px;
+      height: 252px;
+      color: #fff;
+      background-color: rgb(0, 0, 0);
+  }
+
+  .service-image {
+      width: 920px !important;
+      height: 500px !important;
+      display: inline !important;
+      scroll-behavior: smooth;
+  }
+
+  a {
+      color: #f1f1f1;
+  }
+
+  a:hover {
+      text-decoration: none;
+      color: rgb(92, 91, 91);
+  }
+
+  h1 {
+      font-weight: bold;
+  }
+
+  #navbar {
+      overflow: hidden;
+      background-color: #333;
+      border-color: unset;
+      border-radius: unset;
+      z-index: 999999;
+  }
+
+  #navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  #navbar li.active>a,
+  #navbar li:hover>a {
+      background-color: rgb(92, 91, 91);
+  }
+
+  #home {
+      font-size: 20px;
+  }
+
+  .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+
+  .sticky+.content {
+      padding-top: 60px;
+  }
+
+  .header {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+  }
+
+  .footer {
+      color: rgb(112, 109, 109);
+  }
+
+  .footer hr {
+      border-top: 1px solid #3a3333;
+      margin-bottom: 20px;
+  }
+
+  .footer ul {
+      list-style-type: none;
+  }
+
+  .logo-image {
+      width: 270px;
+      height: 200px;
+  }
+
+  @media (min-width: 768px) {
+      .navbar-nav {
+          float: none;
+          margin: 0 auto;
+          display: table;
+          table-layout: fixed;
+      }
+  }
