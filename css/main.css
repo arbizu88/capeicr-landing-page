@@ -1,8 +1,12 @@
+  .container{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .section1 {
       /* padding-top: 50px; */
       height: 500px;
       color: #fff;
-      background-color: #333;
+      background-color: rgb(0, 0, 0);
   }
 
   .section2 {
@@ -16,7 +20,7 @@
       padding-top: 50px;
       height: 360px;
       color: #fff;
-      background-color: #333;
+      background-color: rgb(0, 0, 0);
   }
 
   .section4 {
@@ -31,6 +35,12 @@
       height: 500px !important;
       display: inline !important;
       scroll-behavior: smooth;
+  }
+  body{
+      background-color: #555;
+  }
+  p{
+      padding: 0px 15px;
   }
 
   a {
@@ -73,18 +83,8 @@
       font-size: 20px;
   }
 
-  .sticky {
-      position: fixed;
-      top: 0;
-      width: 100%;
-  }
-
-  .sticky+.content {
-      padding-top: 60px;
-  }
-
   .header {
-      background-color: #f1f1f1;
+      background-color: #fff;
       padding: 30px;
       text-align: center;
   }
@@ -103,13 +103,12 @@
   }
 
   .logo-image {
-      width: 270px;
-      height: 200px;
+      width: 30%;
   }
 
   .home-image{
       width: 100%;
-      height: auto;
+      height: 436px;
   }
   @media (min-width: 768px) {
       .navbar-nav {
@@ -120,6 +119,9 @@
       }
   }
   @media (max-width:768px){
+    #navbar {
+        margin-bottom: 0px;
+    }
     .home-image{
         visibility: hidden;
     }
@@ -127,9 +129,15 @@
         padding-top: 30px;
     }
     .section1{
-        height: 360px;
+        height: 400px;
     }
-    .sticky+.content {
-        padding-top: 250px;
+    .section2{
+        height: 400px;
+    }
+    .service-image {
+        height: 400px !important
+    }
+    .logo-image {
+        width: 90%;
     }
   }
