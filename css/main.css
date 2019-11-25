@@ -58,7 +58,7 @@
 
   #navbar {
       overflow: hidden;
-      background-color: #333;
+      background-color: rgb(0, 0, 0);
       border-color: unset;
       border-radius: unset;
       z-index: 999999;
